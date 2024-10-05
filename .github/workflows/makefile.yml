@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Building
-      run: make start
+      run: make help
 
     - name: CI
       run: make ci
